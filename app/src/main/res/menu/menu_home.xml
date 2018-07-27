@@ -3,10 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:icon="@mipmap/ic_compra"
          android:title="compras"
-         android:id="@+id/productos"
-        app:showAsAction="never"
+         android:id="@+id/articulos"
+        app:showAsAction="always"
         />
-
-
-
 </menu>
