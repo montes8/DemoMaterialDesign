@@ -9,11 +9,14 @@ import android.view.ViewGroup
 
 
 class AutosFragment : Fragment() {
+    var myVista : View?= null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
 
-        return inflater.inflate(R.layout.fragment_autos, container, false)
+        myVista = inflater.inflate(R.layout.fragment_autos, container, false)
+
+        return myVista
     }
 
 

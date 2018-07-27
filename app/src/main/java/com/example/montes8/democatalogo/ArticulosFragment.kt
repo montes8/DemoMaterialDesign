@@ -9,11 +9,13 @@ import android.view.ViewGroup
 
 
 class ArticulosFragment : Fragment() {
+    var myVista : View?= null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
+        myVista = inflater.inflate(R.layout.fragment_articulos, container, false)
 
-        return inflater.inflate(R.layout.fragment_articulos, container, false)
+        return myVista
     }
 
 
