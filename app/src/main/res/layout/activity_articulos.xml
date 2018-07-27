@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ArticulosActivity">
+    tools:context=".view.ArticulosActivity">
     <android.support.v7.widget.Toolbar
         android:id="@+id/articulosToolbar"
         android:layout_width="match_parent"

@@ -1,10 +1,13 @@
-package com.example.montes8.democatalogo
+package com.example.montes8.democatalogo.view
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import com.example.montes8.democatalogo.R
+import com.example.montes8.democatalogo.fragments.ArticulosFragment
+import com.example.montes8.democatalogo.fragments.AutosFragment
+import com.example.montes8.democatalogo.fragments.RopaFragment
 import kotlinx.android.synthetic.main.activity_articulos.*
-import kotlinx.android.synthetic.main.activity_home.*
 
 class ArticulosActivity : AppCompatActivity() {
 
@@ -40,6 +43,10 @@ class ArticulosActivity : AppCompatActivity() {
     private fun ajusteToolbarArticulos() {
         setSupportActionBar(articulosToolbar)
         title = "ELIGE QUE COMPRAR"
+        articulosToolbar.navigationIcon = getDrawable(R.drawable.ic_atras)
+        articulosToolbar.setNavigationOnClickListener {
+            onBackPressed()
+        }
     }
 
 

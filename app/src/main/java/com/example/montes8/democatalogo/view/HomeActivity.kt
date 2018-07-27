@@ -1,10 +1,11 @@
-package com.example.montes8.democatalogo
+package com.example.montes8.democatalogo.view
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import com.example.montes8.democatalogo.R
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
@@ -29,7 +30,7 @@ class HomeActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.articulos -> {
-                val intent = Intent(this@HomeActivity,ArticulosActivity::class.java)
+                val intent = Intent(this@HomeActivity, ArticulosActivity::class.java)
                 startActivity(intent)
             }
         }
