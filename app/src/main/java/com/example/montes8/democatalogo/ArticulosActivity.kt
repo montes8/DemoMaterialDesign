@@ -4,12 +4,14 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import kotlinx.android.synthetic.main.activity_articulos.*
+import kotlinx.android.synthetic.main.activity_home.*
 
 class ArticulosActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_articulos)
+        ajusteToolbarArticulos()
         cambiarFragmento(AutosFragment())
 
         button_navigation.setOnNavigationItemSelectedListener { item ->
@@ -34,6 +36,10 @@ class ArticulosActivity : AppCompatActivity() {
                 .replace(R.id.content_frame,fragment)
                 .commit()
 
+    }
+    private fun ajusteToolbarArticulos() {
+        setSupportActionBar(articulosToolbar)
+        title = "ELIGE QUE COMPRAR"
     }
 
 
