@@ -49,6 +49,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="PELCULAS"
+                    android:textColor="#006064"
                     android:layout_marginTop="2dp"
                     android:textStyle="bold" />
                 <View
@@ -85,11 +86,12 @@
                     android:layout_marginTop="2dp"
                     android:gravity="center"
                     android:text="ANIME"
+                    android:textColor="#424242"
                     android:textStyle="bold" />
                 <View
                     android:layout_width="100dp"
                     android:layout_height="1dp"
-                    android:background="#43396e" />
+                    android:background="#424242" />
 
 
             </LinearLayout>
@@ -126,11 +128,12 @@
                     android:layout_marginTop="2dp"
                     android:gravity="center"
                     android:text="SERIES"
+                    android:textColor="#3e2723"
                     android:textStyle="bold" />
                 <View
                     android:layout_width="100dp"
                     android:layout_height="1dp"
-                    android:background="#43396e"
+                    android:background="#3e2723"
                     />
 
             </LinearLayout>
@@ -158,12 +161,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:gravity="center"
+                    android:textColor="#d50000"
                     android:text="DORAMAS"
                     android:textStyle="bold" />
                 <View
                     android:layout_width="100dp"
                     android:layout_height="1dp"
-                    android:background="#43396e" />
+                    android:background="#d50000" />
 
 
 
@@ -201,12 +205,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:gravity="center"
+                    android:textColor="#00acc1"
                     android:text="DIBUJOS"
                     android:textStyle="bold" />
                 <View
                     android:layout_width="100dp"
                     android:layout_height="2dp"
-                    android:background="#43396e"
+                    android:background="#00acc1"
                     />
 
 
