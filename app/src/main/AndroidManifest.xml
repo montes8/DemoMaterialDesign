@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.HomeActivity" />
-        <activity android:name=".view.ArticulosActivity"></activity>
+        <activity android:name=".view.ArticulosActivity" />
+        <activity android:name=".view.CocheActivity" />
+        <activity android:name=".view.VentaActivity"></activity>
     </application>
 
 </manifest>

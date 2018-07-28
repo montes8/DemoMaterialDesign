@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import com.example.montes8.demolistacarros.CocheActivity
-import com.example.montes8.demolistacarros.R
-import com.example.montes8.demolistacarros.VentaActivity
+import com.example.montes8.democatalogo.R
+import com.example.montes8.democatalogo.view.CocheActivity
+import com.example.montes8.democatalogo.view.VentaActivity
 import kotlinx.android.synthetic.main.molde_coche_grid.view.*
 
 
